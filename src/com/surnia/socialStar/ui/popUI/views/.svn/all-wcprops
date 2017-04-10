@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SocialStar/!svn/ver/4592/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views
+END
+ContestantSelectionWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/SocialStar/!svn/ver/3349/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/ContestantSelectionWindow.as
+END
+CraftingWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SocialStar/!svn/ver/3548/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/CraftingWindow.as
+END
+ChangeOfficeNamePopUP.as
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/SocialStar/!svn/ver/2603/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/ChangeOfficeNamePopUP.as
+END
+ContestantInfoWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/SocialStar/!svn/ver/3652/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/ContestantInfoWindow.as
+END
+CrewWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/SocialStar/!svn/ver/1732/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/CrewWindow.as
+END
+StaffWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/SocialStar/!svn/ver/1732/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/StaffWindow.as
+END
+FriendPopUp.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/SocialStar/!svn/ver/4479/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/FriendPopUp.as
+END
+PopUpUIManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SocialStar/!svn/ver/4581/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/PopUpUIManager.as
+END
+ComingSoonWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/SocialStar/!svn/ver/2422/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/ComingSoonWindow.as
+END
+ActionPointPopUpWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/SocialStar/!svn/ver/3856/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/ActionPointPopUpWindow.as
+END
+HirePopUpWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/SocialStar/!svn/ver/1479/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/HirePopUpWindow.as
+END
+LevelUpWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/SocialStar/!svn/ver/3681/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/LevelUpWindow.as
+END
+TutWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/SocialStar/!svn/ver/3895/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/TutWindow.as
+END
+GetCoinPopUpWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/SocialStar/!svn/ver/1964/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/GetCoinPopUpWindow.as
+END
+MiniMapPopUpWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/SocialStar/!svn/ver/2747/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/MiniMapPopUpWindow.as
+END
+MessageWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/SocialStar/!svn/ver/4540/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/MessageWindow.as
+END
+RunningManWrapper.as
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/SocialStar/!svn/ver/1713/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/RunningManWrapper.as
+END
+HireCharWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SocialStar/!svn/ver/4525/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/HireCharWindow.as
+END
+QuestPopUpWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/SocialStar/!svn/ver/4562/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/QuestPopUpWindow.as
+END
+ItemShopWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/SocialStar/!svn/ver/545/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/ItemShopWindow.as
+END
+DialogueWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SocialStar/!svn/ver/1590/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/DialogueWindow.as
+END
+InviteFriendsPopUpWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/SocialStar/!svn/ver/2957/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/InviteFriendsPopUpWindow.as
+END
+ItemShopHolder.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SocialStar/!svn/ver/3856/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/ItemShopHolder.as
+END
+EventSceneWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/SocialStar/!svn/ver/3575/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/EventSceneWindow.as
+END
+SamplePopUpWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/SocialStar/!svn/ver/956/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/SamplePopUpWindow.as
+END
+MinimapCharacterListManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/SocialStar/!svn/ver/962/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/MinimapCharacterListManager.as
+END
+CharShopWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SocialStar/!svn/ver/4592/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/CharShopWindow.as
+END
+AvatarToolWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/SocialStar/!svn/ver/2497/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/AvatarToolWindow.as
+END
+ThanksForVisitingWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/SocialStar/!svn/ver/4588/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/ThanksForVisitingWindow.as
+END
+SellPopUpWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SocialStar/!svn/ver/956/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/SellPopUpWindow.as
+END
+RewardWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/SocialStar/!svn/ver/4562/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/RewardWindow.as
+END
+MiniMapInstantCompleteWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/SocialStar/!svn/ver/492/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/ui/popUI/views/MiniMapInstantCompleteWindow.as
+END

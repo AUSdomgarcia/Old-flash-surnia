@@ -1,0 +1,138 @@
+<buildings return="true">
+<bldg>
+<name>Building1MC</name>
+<swf>
+http://1.234.2.179/socialstardev/public/data/swf/building.swf
+</swf>
+<fn>1</fn>
+<x>393</x>
+<y>195</y>
+<z>0</z>
+<lvlreq>1</lvlreq>
+<status>0</status>
+<challenge>
+<npcname>NPC1</npcname>
+<npcimg>
+http://1.234.2.179/socialstardev/public/data/imgs/challenge/npc1.png
+</npcimg>
+<contests currentround="0">
+<round id="t7CJzriRCAKQrV9UpqjL" type="sing" fn="1"/>
+<round id="ReCDYuoU4fN75LbkQHi" type="brainstorm" fn="2"/>
+<round id="F74RxYmzik45sAwwHl5H" type="runningman" fn="3"/>
+</contests>
+</challenge>
+</bldg>
+<bldg>
+<name>Building2MC</name>
+<swf>
+http://1.234.2.179/socialstardev/public/data/swf/building.swf
+</swf>
+<fn>2</fn>
+<x>568</x>
+<y>55</y>
+<z>0</z>
+<lvlreq>2</lvlreq>
+<status>0</status>
+<challenge>
+<npcname>NPC2</npcname>
+<npcimg>
+http://1.234.2.179/socialstardev/public/data/imgs/challenge/npc2.png
+</npcimg>
+<contests currentround="0">
+<round id="ReCDYuoU4fN75LbkQHi" type="brainstorm" fn="2"/>
+<round id="F74RxYmzik45sAwwHl5H" type="runningman" fn="3"/>
+<round id="G2VJguqmssCsfuAKQSoM" type="bestcouple" fn="4"/>
+</contests>
+</challenge>
+</bldg>
+<bldg>
+<name>Building3MC</name>
+<swf>
+http://1.234.2.179/socialstardev/public/data/swf/building.swf
+</swf>
+<fn>3</fn>
+<x>200</x>
+<y>109</y>
+<z>0</z>
+<lvlreq>3</lvlreq>
+<status>0</status>
+<challenge>
+<npcname>NPC3</npcname>
+<npcimg>
+http://1.234.2.179/socialstardev/public/data/imgs/challenge/npc3.png
+</npcimg>
+<contests currentround="0">
+<round id="F74RxYmzik45sAwwHl5H" type="runningman" fn="3"/>
+</contests>
+</challenge>
+</bldg>
+<bldg>
+<name>Building4MC</name>
+<swf>
+http://1.234.2.179/socialstardev/public/data/swf/building.swf
+</swf>
+<fn>4</fn>
+<x>67</x>
+<y>328</y>
+<z>0</z>
+<lvlreq>2</lvlreq>
+<status>0</status>
+<challenge>
+<npcname>NPC4</npcname>
+<npcimg>
+http://1.234.2.179/socialstardev/public/data/imgs/challenge/npc4.png
+</npcimg>
+<contests currentround="0">
+<round id="t7CJzriRCAKQrV9UpqjL" type="sing" fn="1"/>
+<round id="F74RxYmzik45sAwwHl5H" type="runningman" fn="3"/>
+<round id="G2VJguqmssCsfuAKQSoM" type="bestcouple" fn="4"/>
+</contests>
+</challenge>
+</bldg>
+<bldg>
+<name>Building5MC</name>
+<swf>
+http://1.234.2.179/socialstardev/public/data/swf/building.swf
+</swf>
+<fn>5</fn>
+<x>75</x>
+<y>525</y>
+<z>0</z>
+<lvlreq>5</lvlreq>
+<status>0</status>
+<challenge>
+<npcname>NPC5</npcname>
+<npcimg>
+http://1.234.2.179/socialstardev/public/data/imgs/challenge/npc5.png
+</npcimg>
+<contests currentround="0">
+<round id="G2VJguqmssCsfuAKQSoM" type="bestcouple" fn="4"/>
+<round id="ReCDYuoU4fN75LbkQHi" type="brainstorm" fn="2"/>
+</contests>
+</challenge>
+</bldg>
+<bldg>
+<name>Building6MC</name>
+<swf>
+http://1.234.2.179/socialstardev/public/data/swf/building.swf
+</swf>
+<fn>6</fn>
+<x>515</x>
+<y>462</y>
+<z>0</z>
+<lvlreq>4</lvlreq>
+<status>0</status>
+<challenge>
+<npcname>NPC6</npcname>
+<npcimg>
+http://1.234.2.179/socialstardev/public/data/imgs/challenge/npc6.png
+</npcimg>
+<contests currentround="0">
+<round id="t7CJzriRCAKQrV9UpqjL" type="sing" fn="1"/>
+<round id="ReCDYuoU4fN75LbkQHi" type="brainstorm" fn="2"/>
+<round id="zWkghY5WOVMbQsi8dcjo" type="moviestar" fn="5"/>
+<round id="G2VJguqmssCsfuAKQSoM" type="bestcouple" fn="4"/>
+</contests>
+</challenge>
+</bldg>
+</buildings>

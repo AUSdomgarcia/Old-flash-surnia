@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<actionScriptProperties analytics="false" mainApplicationPath="SocialStar.as" projectUUID="1b7e9c7a-2515-4af8-88fd-dcd5012b9a76" version="10">
+  <compiler additionalCompilerArguments="-locale en_US" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="true" htmlExpressInstall="true" htmlGenerate="true" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" verifyDigests="true" warn="false">
+    <compilerSourcePath/>
+    <libraryPath defaultLinkType="0">
+      <libraryPathEntry kind="4" path="">
+        <excludedEntries>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_charts.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="1" linkType="1" path="${PROJECT_FRAMEWORKS}/locale/{locale}"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/advancedgrids.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/qtp.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_air.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/charts.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/framework.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/mx/mx.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/netmon.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/spark.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/sparkskins.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/rpc.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/videoPlayer.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/qtp_air.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/datavisualization.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/spark_dmv.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/flash-integration.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_dmv.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_flashflexkit.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_agent.swc" useDefaultLinkType="false"/>
+        </excludedEntries>
+      </libraryPathEntry>
+      <libraryPathEntry kind="1" linkType="1" path="lib"/>
+      <libraryPathEntry kind="3" linkType="1" path="lib/Avatar" useDefaultLinkType="false"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/Avatar/generator"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/bgmSfx"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/fontText"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/FreindUIArt"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/isoRoom"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/MainMenuUIArt"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/MiniGamesUIArt"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/officeShopUI"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/PopUIArt"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/rewards"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/PopUIArt/WorldMapUI"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/Avatar"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/tutorial"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/bubbleArt"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/quest"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/newOfficeObjectAssets"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/utility"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/ringCommandArt"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/CraftingUI"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib/SceneUI"/>
+    </libraryPath>
+    <sourceAttachmentPath/>
+  </compiler>
+  <applications>
+    <application path="com/surnia/socialStar/ui/playerStatus/PlayerStatusManager.as"/>
+    <application path="com/surnia/socialStar/test/ServerDataManagerTest.as"/>
+    <application path="com/surnia/socialStar/test/PlayerStatusTest.as"/>
+    <application path="com/surnia/socialStar/test/CharacterNodeTest.as"/>
+    <application path="com/surnia/socialStar/test/ProgressBarTest2.as"/>
+    <application path="SocialStar.as"/>
+    <application path="com/surnia/socialStar/ui/popUI/views/AvatarToolWindow.as"/>
+  </applications>
+  <modules/>
+  <buildCSSFiles/>
+  <flashCatalyst validateFlashCatalystCompatibility="false"/>
+</actionScriptProperties>

@@ -1,0 +1,11 @@
+<storeitems>
+	<category name="Chairs" source="Chairs">
+		<product name="chair" pricecoin="100" pricecredit="20" file="koreanitems01.swf" type="1" description="(1x1) 1Bla Bla bla"/>
+		<product name="myChair" pricecoin="1010" pricecredit="50" file="koreanitems01.swf" type="3" description="(1x2) 4Bla Bla bla"/>
+		<product name="uaysdi" pricecoin="6565" pricecredit="89898" file="asdasdas.swf" type="2" description="sdfsdfsdf"/>
+	</category>
+	<category name="Tables" source="Tables"></category>
+	<category name="Doors" source="Items">
+		<product name="desk" pricecoin="10000" pricecredit="0" file="koreanitems01.swf" type="2" description="(1x2) 2Bla Bla bla"/>
+	</category>
+</storeitems>

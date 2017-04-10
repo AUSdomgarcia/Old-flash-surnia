@@ -1,0 +1,5 @@
+<cv ret="true">
+<challenges type="0" dura="30" coincost="350" apcost="3"/>
+<challenges type="1" dura="31" coincost="351" apcost="3"/>
+<challenges type="2" dura="32" coincost="352" apcost="3"/>
+</cv>

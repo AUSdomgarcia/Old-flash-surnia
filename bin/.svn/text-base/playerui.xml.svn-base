@@ -1,0 +1,12 @@
+<player return="true">
+<pid>X4E4XD1KL2FUJv8gRVKBFyhL5lJOlsm4elCXbPZxFjMYIXeizfcKIh2hik4gBORdBjQNfLgH9MSAXKTNLNvmW6ZhXYayMNiyTd</pid><fbid>700186557</fbid>
+<fbname>Hedrick David</fbname>
+<coin>1000</coin>
+<starpoint>5</starpoint>
+<ap>10</ap>
+<apnext>80</apnext>
+<lv>2</lv>
+<exp>0</exp>
+<redstar>50</redstar>
+<blackstar>65</blackstar>
+<bgm>1</bgm><sfx>1</sfx><gfx>2</gfx></player>

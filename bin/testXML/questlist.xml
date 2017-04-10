@@ -1,0 +1,83 @@
+<questlist ret="true" return="true" >
+						<quest id="m" npctype="10" questcommand="" category="cat015" title="hindi ginagamit??" npcimage="qnpc015" npcscript="You may not want to the bank. Just setup ATM here." hintscript="Set up ATM from shop." rushstar="1" rewardnpcimage="hindi ginagamit??" questicon="" type="hindi ginagamit??" timelimit="-1" dailyquest="0" isnew="1" isaccepted="0">
+		<rewardlist>
+			<reward questid="m" type="pexp" qreward="qrewardpexp" amt="1"/>
+			<reward questid="m" type="coin" qreward="qrewardcoin" amt="300"/>
+		</rewardlist>
+		<termlist>
+								<term id="E" questid="m" termcommand="hindi ginagamit??" status="ongoing" amountreq="1" amounthave="0" objectimage="qicon005" conditiontext="Place an ATM" rushstar="1" func="own_officeitem_atm" />
+				</termlist>
+	</quest>
+				<quest id="R" npctype="4" questcommand="" category="cat015" title="hindi ginagamit??" npcimage="qnpc011" npcscript="I`ve found out that your contestant can not sing. You need mic to teach them." hintscript="Setup a Mic Lv.0 from shop." rushstar="1" rewardnpcimage="hindi ginagamit??" questicon="" type="hindi ginagamit??" timelimit="-1" dailyquest="0" isnew="1" isaccepted="0">
+		<rewardlist>
+			<reward questid="R" type="pexp" qreward="qrewardpexp" amt="1"/>
+			<reward questid="R" type="coin" qreward="qrewardcoin" amt="300"/>
+		</rewardlist>
+		<termlist>
+								<term id="n" questid="R" termcommand="hindi ginagamit??" status="ongoing" amountreq="1" amounthave="0" objectimage="qicon013" conditiontext="Place a Mic Lv.0" rushstar="1" func="own_officeitem_miclv0" />
+				</termlist>
+	</quest>
+				<quest id="N" npctype="12" questcommand="" category="cat015" title="hindi ginagamit??" npcimage="qnpc011" npcscript="Teach them Music." hintscript="Make one contestant sing a song" rushstar="1" rewardnpcimage="hindi ginagamit??" questicon="" type="hindi ginagamit??" timelimit="-1" dailyquest="0" isnew="1" isaccepted="0">
+		<rewardlist>
+			<reward questid="N" type="pexp" qreward="qrewardpexp" amt="1"/>
+			<reward questid="N" type="coin" qreward="qrewardcoin" amt="300"/>
+		</rewardlist>
+		<termlist>
+								<term id="B" questid="N" termcommand="hindi ginagamit??" status="ongoing" amountreq="1" amounthave="0" objectimage="q0005" conditiontext="Train song ability 1 time by using Mic Lv.0" rushstar="1" func="training_self_miclv0" />
+				</termlist>
+	</quest>
+				<quest id="b" npctype="10" questcommand="" category="cat015" title="hindi ginagamit??" npcimage="qnpc012" npcscript="Sound a body Sound a mind. Place Dumbbell Lv.0!" hintscript="Buy a Dumbbell Lv.0 in the shop." rushstar="1" rewardnpcimage="hindi ginagamit??" questicon="" type="hindi ginagamit??" timelimit="-1" dailyquest="0" isnew="1" isaccepted="0">
+		<rewardlist>
+			<reward questid="b" type="pexp" qreward="qrewardpexp" amt="1"/>
+			<reward questid="b" type="coin" qreward="qrewardcoin" amt="300"/>
+		</rewardlist>
+		<termlist>
+								<term id="m" questid="b" termcommand="hindi ginagamit??" status="ongoing" amountreq="1" amounthave="0" objectimage="qicon016" conditiontext="Place a Dumbbell Lv.0" rushstar="1" func="own_officeitem_dumbbelllv0" />
+				</termlist>
+	</quest>
+				<quest id="W" npctype="6" questcommand="" category="cat015" title="hindi ginagamit??" npcimage="qnpc012" npcscript="Sound a body Sound a mind. Work out!" hintscript="Train health by using a dumbbell." rushstar="1" rewardnpcimage="hindi ginagamit??" questicon="" type="hindi ginagamit??" timelimit="-1" dailyquest="0" isnew="1" isaccepted="0">
+		<rewardlist>
+			<reward questid="W" type="pexp" qreward="qrewardpexp" amt="1"/>
+			<reward questid="W" type="coin" qreward="qrewardcoin" amt="300"/>
+		</rewardlist>
+		<termlist>
+								<term id="N" questid="W" termcommand="hindi ginagamit??" status="ongoing" amountreq="1" amounthave="0" objectimage="q0002" conditiontext="Train health ability 1 time by using Dumbbell Lv.0" rushstar="1" func="training_self_dumbbelllv0" />
+				</termlist>
+	</quest>
+				<quest id="G" npctype="2" questcommand="" category="cat015" title="hindi ginagamit??" npcimage="qnpc015" npcscript="Hey your office needs interior design. At least places a Orange Pot" hintscript="Buy the Orange Pot from decoration in shop." rushstar="1" rewardnpcimage="hindi ginagamit??" questicon="" type="hindi ginagamit??" timelimit="-1" dailyquest="0" isnew="1" isaccepted="0">
+		<rewardlist>
+			<reward questid="G" type="pexp" qreward="qrewardpexp" amt="1"/>
+			<reward questid="G" type="coin" qreward="qrewardcoin" amt="300"/>
+		</rewardlist>
+		<termlist>
+								<term id="z8" questid="G" termcommand="hindi ginagamit??" status="ongoing" amountreq="1" amounthave="0" objectimage="qicon049" conditiontext="Place a Orange Pot" rushstar="1" func="own_officeitem_orangepot" />
+				</termlist>
+	</quest>
+				<quest id="z" npctype="11" questcommand="" category="cat015" title="hindi ginagamit??" npcimage="qnpc015" npcscript="What a wept! The owner of ven mall is she who provoked us before. Let`s revenge!" hintscript="" rushstar="1" rewardnpcimage="hindi ginagamit??" questicon="" type="hindi ginagamit??" timelimit="-1" dailyquest="0" isnew="1" isaccepted="0">
+		<rewardlist>
+			<reward questid="z" type="pexp" qreward="qrewardpexp" amt="1"/>
+			<reward questid="z" type="coin" qreward="qrewardcoin" amt="300"/>
+		</rewardlist>
+		<termlist>
+								<term id="aj" questid="z" termcommand="hindi ginagamit??" status="ongoing" amountreq="1" amounthave="0" objectimage="q0009" conditiontext="Win 1 round of Ven Mall" rushstar="1" func="contest_marinejack_win" />
+				</termlist>
+	</quest>
+				<quest id="F" npctype="4" questcommand="" category="cat015" title="hindi ginagamit??" npcimage="qnpc015" npcscript="You are getting better. Let's challenge the second round for ven mall." hintscript="" rushstar="1" rewardnpcimage="hindi ginagamit??" questicon="" type="hindi ginagamit??" timelimit="-1" dailyquest="0" isnew="1" isaccepted="0">
+		<rewardlist>
+			<reward questid="F" type="pexp" qreward="qrewardpexp" amt="1"/>
+			<reward questid="F" type="coin" qreward="qrewardcoin" amt="300"/>
+		</rewardlist>
+		<termlist>
+								<term id="6u" questid="F" termcommand="hindi ginagamit??" status="ongoing" amountreq="1" amounthave="0" objectimage="q0009" conditiontext="Win 2 round of Ven Mall" rushstar="1" func="contest_luckylina_win" />
+				</termlist>
+	</quest>
+				<quest id="e" npctype="4" questcommand="" category="cat015" title="hindi ginagamit??" npcimage="qnpc015" npcscript="Let`s challenge 3rd round at Ven mall!" hintscript="" rushstar="1" rewardnpcimage="hindi ginagamit??" questicon="" type="hindi ginagamit??" timelimit="-1" dailyquest="0" isnew="1" isaccepted="0">
+		<rewardlist>
+			<reward questid="e" type="pexp" qreward="qrewardpexp" amt="1"/>
+			<reward questid="e" type="coin" qreward="qrewardcoin" amt="300"/>
+		</rewardlist>
+		<termlist>
+								<term id="2e" questid="e" termcommand="hindi ginagamit??" status="ongoing" amountreq="1" amounthave="0" objectimage="q0009" conditiontext="Win 3 round of Ven Mall" rushstar="1" func="contest_likimat_win" />
+				</termlist>
+	</quest>
+		</questlist>

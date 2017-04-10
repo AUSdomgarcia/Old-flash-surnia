@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="Application" />
+    <movie input="" />
+    <movie path="bin\SocialStar.swf" />
+    <movie fps="30" />
+    <movie width="760" />
+    <movie height="630" />
+    <movie version="11" />
+    <movie minorVersion="0" />
+    <movie platform="Flash Player" />
+    <movie background="#FFFFFF" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option accessible="False" />
+    <option allowSourcePathOverlap="False" />
+    <option benchmark="False" />
+    <option es="False" />
+    <option locale="" />
+    <option loadConfig="" />
+    <option optimize="True" />
+    <option omitTraces="True" />
+    <option showActionScriptWarnings="True" />
+    <option showBindingWarnings="True" />
+    <option showInvalidCSS="True" />
+    <option showDeprecationWarnings="True" />
+    <option showUnusedTypeSelectorWarnings="True" />
+    <option strict="True" />
+    <option useNetwork="True" />
+    <option useResourceBundleMetadata="True" />
+    <option warnings="True" />
+    <option verboseStackTraces="False" />
+    <option linkReport="" />
+    <option loadExterns="" />
+    <option staticLinkRSL="True" />
+    <option additional="" />
+    <option compilerConstants="" />
+    <option minorVersion="" />
+  </build>
+  <!-- SWC Include Libraries -->
+  <includeLibraries>
+    <!-- example: <element path="..." /> -->
+  </includeLibraries>
+  <!-- SWC Libraries -->
+  <libraryPaths>
+    <element path="lib\bgImg\bgImg.swc" />
+    <element path="lib\FreindUIArt\FriendUIAssets.swc" />
+    <element path="lib\MainMenuUIArt\MainMenuUIAssets.swc" />
+    <element path="lib\MiniGamesUIArt\RunningManUI.swc" />
+    <element path="lib\officeShopUI\build_assets.swc" />
+    <element path="lib\PopUIArt\building.swc" />
+    <element path="lib\PopUIArt\iconBuilding.swc" />
+    <element path="lib\PopUIArt\Map.swc" />
+    <element path="lib\PopUIArt\minimapAssets.swc" />
+    <element path="lib\PopUIArt\UIMapFaceFriendListPanel.swc" />
+    <element path="lib\bulk_loader.swc" />
+    <element path="lib\flash.swc" />
+    <element path="lib\greensock.swc" />
+    <element path="lib\PlayerStatus.swc" />
+    <element path="lib\spritetest.swc" />
+    <element path="lib\Avatar\Avatar.swc" />
+    <element path="lib\Avatar\characterShopUI.swc" />
+    <element path="lib\Avatar\hiremain.swc" />
+    <element path="lib\bgmSfx\bgmAndSfx.swc" />
+    <element path="lib\isoRoom\BackgroundImage.swc" />
+    <element path="lib\isoRoom\mousePointer.swc" />
+    <element path="lib\isoRoom\objects.swc" />
+    <element path="lib\isoRoom\tokenIcons.swc" />
+    <element path="lib\MiniGamesUIArt\AvatarEmotionEffect.swc" />
+    <element path="lib\MiniGamesUIArt\miniGamesUI.swc" />
+    <element path="lib\MiniGamesUIArt\RewardsPOPUPUI.swc" />
+    <element path="lib\officeShopUI\build_icons.swc" />
+    <element path="lib\PopUIArt\gameTest.swc" />
+    <element path="lib\PopUIArt\Challenge.swc" />
+    <element path="lib\PopUIArt\MAP_MOTION.swc" />
+    <element path="lib\PopUIArt\Map2.swc" />
+    <element path="lib\PopUIArt\RunningManTutorial.swc" />
+    <element path="lib\rewards\tokenIcons.swc" />
+    <element path="lib\Staff.swc" />
+    <element path="lib\Avatar\generator\charGenerator.swc" />
+    <element path="lib\Avatar\generator\shopmain.swc" />
+    <element path="lib\PopUIArt\WorldMapUI\ChallengeMode.swc" />
+    <element path="lib\PopUIArt\WorldMapUI\MAP_MOTION.swc" />
+    <element path="lib\PopUIArt\WorldMapUI\Map2.swc" />
+    <element path="lib\PopUIArt\Dialogue.swc" />
+    <element path="lib\Crew.swc" />
+    <element path="lib\ProgressBars.swc" />
+    <element path="lib\Avatar\generator\hiremain.swc" />
+    <element path="lib\Avatar\generator\AvatarMale.swc" />
+    <element path="lib\UpdatedAvatar\AvatarMale.swc" />
+    <element path="lib\UpdatedAvatar\AvatarFemale.swc" />
+    <element path="lib\Avatar\AvatarMale.swc" />
+    <element path="lib\Tutorial\tutorial.swc" />
+    <element path="lib\bubbleArt\Bubbles.swc" />
+    <element path="lib\Avatar\AvatarFemale.swc" />
+    <element path="lib\Bubbles.swc" />
+    <element path="lib\Character.swc" />
+    <element path="lib\Avatar\newAvatarTooltip.swc" />
+    <element path="lib\rewards\rewardAssets.swc" />
+    <element path="lib\quest\questCategoryArt.swc" />
+    <element path="lib\quest\questIconArt2.swc" />
+    <element path="lib\quest\questIconArt3.swc" />
+    <element path="lib\quest\questIconArt.swc" />
+    <element path="lib\Avatar\AvatarTooltip.swc" />
+    <element path="lib\ringCommandArt\ringCmdArt.swc" />
+    <element path="lib\as3corelib.swc" />
+    <element path="lib\FriendView.swc" />
+    <element path="lib\CraftingUI\CraftingUI.swc" />
+    <element path="lib\SceneUI\SceneUI.swc" />
+    <element path="lib\utility\CasaLib_1.4.1.swc" />
+    <element path="lib\Avatar\female_minigame_v9.swc" />
+    <element path="lib\Avatar\Minigame_player_avatar_v7.swc" />
+    <element path="lib\newOfficeObjectAssets\newOfficeObjectAssets.swc" />
+    <element path="lib\PopUIArt\PopUIAssets.swc" />
+    <element path="lib\charShop\shopmain.swc" />
+  </libraryPaths>
+  <!-- External Libraries -->
+  <externalLibraryPaths>
+    <!-- example: <element path="..." /> -->
+  </externalLibraryPaths>
+  <!-- Runtime Shared Libraries -->
+  <rslPaths>
+    <!-- example: <element path="..." /> -->
+  </rslPaths>
+  <!-- Intrinsic Libraries -->
+  <intrinsics>
+    <!-- example: <element path="..." /> -->
+  </intrinsics>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <!-- example: <asset path="..." id="..." update="..." glyphs="..." mode="..." place="..." sharepoint="..." /> -->
+  </library>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="src\SocialStar.as" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <!-- example: <hidden path="..." /> -->
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="Default" />
+  </options>
+  <!-- Plugin storage -->
+  <storage />
+</project>

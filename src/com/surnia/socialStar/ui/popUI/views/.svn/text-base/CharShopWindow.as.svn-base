@@ -1,0 +1,201 @@
+package com.surnia.socialStar.ui.popUI.views 
+{	 
+	import com.surnia.socialStar.controllers.EventSatellite;
+	import com.surnia.socialStar.controllers.serverDataController.ServerDataController;
+	import com.surnia.socialStar.data.GlobalData;
+	import com.surnia.socialStar.data.XMLLinkData;
+	import com.surnia.socialStar.tutorial.events.TutorialEvent;
+	import com.surnia.socialStar.ui.popUI.components.*;
+	import com.surnia.socialStar.ui.popUI.config.WindowPopUpConfig;
+	import com.surnia.socialStar.ui.popUI.views.dialogue.event.DialogueEvent;
+	import com.surnia.socialStar.views.display.IsoRoomEvent;
+	import flash.display.*;
+	import flash.events.Event;
+	import flash.text.Font;
+	/**
+	 * ...
+	 * @author monsterpatties
+	 */
+	public class CharShopWindow extends AbstractWindow
+	{
+		
+		/*--------------------------------------------------------------Constant-----------------------------------------------------------------------------*/
+		
+		/*--------------------------------------------------------------Properties---------------------------------------------------------------------------*/				
+		private var _mc:mc_shop;
+		private var _popUpUIManager:PopUpUIManager;
+		private var _sdc:ServerDataController;
+		
+		private var _charId:String;
+		private var _def:String;
+		private var _gender:String;
+		
+		private var _dialogue:DialogueEvent;		//_mc = new mc_shop1();
+		private var _es:EventSatellite;
+		private var _gd:GlobalData = GlobalData.instance;
+		/*--------------------------------------------------------------Constructor--------------------------------------------------------------------------*/		
+		
+		public function CharShopWindow( windowName:String, windowSkin:MovieClip ) 
+		{
+			super( windowName, windowSkin );
+		}
+		
+		/*--------------------------------------------------------------Methods-----------------------------------------------------------------------------*/
+		override public function initWindow():void 
+		{
+			_es =  EventSatellite.getInstance();
+			_sdc =  ServerDataController.getInstance();
+			_popUpUIManager = PopUpUIManager.getInstance();
+			super.initWindow();			
+			setDisplay();
+			
+			var isoRoomEvent:IsoRoomEvent = new IsoRoomEvent( IsoRoomEvent.ON_STOP_ISO_OFFICE_PAN );
+			_es.dispatchESEvent( isoRoomEvent );
+		}
+		
+		override public function clearWindow():void 
+		{
+			super.clearWindow();
+			removeDisplay();
+		}		
+		
+		private function setDisplay():void 
+		{
+			_mc = new mc_shop();		
+			_mc._shopxmladdress = _gd.absPath + "characters/shop";//"public/data/charactershop.xml";
+			_mc._characterinventory = _gd.absPath + "characters/inventory/";
+			_mc._basePath = _gd.absPath;
+			
+			trace(  _mc._characterinventory  );
+			
+			// add this _mc.portAddress = "";
+			_mc._restoreaddress = _gd.absPath + "characters/restorebody/";
+			_mc._selladdress = _gd.absPath + "characters/sell/";
+			_mc._buyaddress = _gd.absPath + "characters/buy/";
+			_mc.malecharfile = _gd.absPath + "public/swf/male01.swf";
+			_mc.femalecharfile = _gd.absPath + "public/swf/female01.swf";
+			_mc._equipaddress = _gd.absPath + "characters/eqp/";
+			
+			addChild( _mc );
+			_mc.addEventListener( "onready", onReadyCharShop );
+			_mc.addEventListener( "close", onCloseCharShop );
+			_mc.addEventListener( "charselected", onCharSelected );
+			domDispatchCatcher();
+		}			
+		
+		private function domDispatchCatcher():void  
+		{
+			_mc.addEventListener("domzInventory", onCatch);
+		}
+		
+		private function onCatch(e:Event):void 
+		{
+			trace("wala lang");
+		}
+		
+		private function removeDisplay():void 
+		{
+			if ( _mc != null ) {
+				if ( this.contains( _mc ) ) {
+					this.removeChild( _mc );
+					_mc = null;
+				}
+			}
+		}
+		
+		private function loadChar( gender:int, setType:String  ):void  //creditsCoin
+		{			
+			//_mc.gender=1;
+			//_mc.setType="0100010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888";
+			_mc.gender= gender;
+			_mc.setType = setType;
+			_mc.characterID = GlobalData.instance.currentCharId;
+			trace("currentCharId", _mc.characterID );
+			
+			var charShopFont:CharShop_Font = new CharShop_Font();
+			
+			
+			_mc.initialize();
+			_mc.embedFontStyle( charShopFont );
+			trace("DOMZ: SHOP INIITIALIZE CALLED");
+			//_mc.visible=true;
+		}
+		
+		/*--------------------------------------------------------------Setters-----------------------------------------------------------------------------*/
+		
+		/*--------------------------------------------------------------Getters-----------------------------------------------------------------------------*/
+		
+		/*--------------------------------------------------------------EventHandlers-----------------------------------------------------------------------*/		
+		private function onReadyCharShop(e:Event):void 
+		{
+			//loadChar( 1, "0100010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888" );
+			//0100010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101888888888888888888888888888888888888D4495F882D3A888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+			
+			//var xml:XML = GlobalData.instance.characterListDataXML
+			//trace( "char 1", xml.char[ 0 ] );			
+			////////new
+			
+			var charData:Array = GlobalData.instance.getCharDataOnCharID( GlobalData.instance.currentCharId );			
+			
+			if ( charData != null && charData[ GlobalData.CHARLIST_NAME ] != null && charData[ GlobalData.CHARLIST_LEVEL ] != null 
+				&& charData[ GlobalData.CHARLIST_POPULAR ] != null &&  charData[ GlobalData.CHARLIST_STRESS ] != null 
+				&&	charData[ GlobalData.CHARLIST_HEALTH ] != null &&  charData[ GlobalData.CHARLIST_SING ] != null 
+				&& 	charData[ GlobalData.CHARLIST_INTELLIGENCE ] != null && charData[ GlobalData.CHARLIST_ACTING ] != null 
+				&& charData[ GlobalData.CHARLIST_ATTRACTION ] != null ) {					
+				
+				//var cName:String = charData[ GlobalData.CHARLIST_NAME ];
+				//var level:int = charData[ GlobalData.CHARLIST_LEVEL ];
+				//var pop:int = charData[ GlobalData.CHARLIST_POPULAR ] / 100;
+				//var stress:int = charData[ GlobalData.CHARLIST_STRESS ] / 100;
+				//var health:int = charData[ GlobalData.CHARLIST_HEALTH ] / 100;
+				//var sing:int = charData[ GlobalData.CHARLIST_SING ] / 100;
+				//var intelligence:int = charData[ GlobalData.CHARLIST_INTELLIGENCE ] / 100;
+				//var acting:int = charData[ GlobalData.CHARLIST_ACTING ] / 100;
+				//var attraction:int = charData[ GlobalData.CHARLIST_ATTRACTION ] / 100;
+				_gender = charData[ GlobalData.CHARLIST_GENDER ];
+				_def = charData[ GlobalData.CHARLIST_DEFINITION ];
+				_charId = GlobalData.instance.currentCharId;
+				trace("CHARID", _charId );
+			}		
+			
+			// fetch item equip and to equip to him
+			_mc._inventoryaddress = _gd.absPath + "characters/inventory/"+_charId;
+			
+			//new			
+			//_gender = xml.char[ 0 ].gender;
+			//_def = xml.char[ 0 ].def;
+			//_charId = xml.char[ 0 ].@id;			
+			
+			trace( "checking.................................................................." )
+			trace( "charid",_charId  );
+			trace( "gender", _gender );
+			trace( "def", _def );
+			
+			if ( _gender == "Female" ) {
+				loadChar( 1, _def );
+			}else {
+				loadChar( 0, _def );
+			}			
+			//loadChar( 1, "0100010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101888888888888888888888888888888888888D4495F882D3A888888888888888888888888888888888888888888888888888888888888888888888888888888888888" );						
+		}
+		
+		
+		
+		private function onCharSelected( e:Event ):void //GlobalData
+		{
+			trace( "[charshop ]charselected................................." );
+		}
+		
+		private function onCloseCharShop(e:Event):void 
+		{
+			//close here
+			trace( "close char shop!!!!!!!!!!!!", _mc.getType );
+			_def = _mc.getType;
+			_sdc.saveCharDefinition( _charId, _def   );
+			//_sdc.checkBoughtClothes();
+			//_sdc.checkWearingClothes();
+			_popUpUIManager.removeWindow( WindowPopUpConfig.CHARSHOP_WINDOW );
+		}
+	}
+
+}

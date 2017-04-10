@@ -1,0 +1,18 @@
+<pl ret="true" randmin="5" randmax="10">
+<pid>t</pid>
+<fbid>1373812866</fbid>
+<fbname>Farez Ramilo</fbname>
+<coin>45000</coin>
+<coinlimit>9999999</coinlimit>
+<starpoint>10</starpoint>
+<starlimit>9999999</starlimit>
+<ap>20</ap>
+<aplimit>20</aplimit>
+<apnext>120</apnext>
+<lv>1</lv>
+<lvlimit>30</lvlimit>
+<exp>0</exp>
+<explimit>10</explimit>
+<redstar>0</redstar>
+<blackstar>0</blackstar>
+</pl>

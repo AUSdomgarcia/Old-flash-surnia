@@ -1,0 +1,36 @@
+<characters charcount="1" return="true" randmin="5" randmax="10">
+					<char id="A5" x="1" y ="0" statmaxexp="3">
+		<gender>Female</gender>
+		<name>Maggie Aguirre</name>
+		<def>01010d01010100010100000000000000000000000101010101010101010101010100000000000000010101010101010100000000000000000000000000000000000000000000000000000000000000002c2d2d485362ed8a4b792e2ec474426e372ed1df52999e456dc49f529c7ac67a64c67a64682c2dd069537eb6654d6341000000000000000000000000000000000000000000000000</def>
+		<health>2000</health>
+		<sing>1900</sing>
+
+		<act>2000</act>
+		<attraction>1400</attraction>
+		<intelligent>1015</intelligent>
+		<level>1</level>
+		<exp>0</exp>
+		<grade>Poor</grade>
+
+		<popular>0</popular>
+		<stress>0</stress>
+		<cond>normal</cond>
+		<status >false</status>
+		<manager npc="false" empty="false" name="" level=""></manager>
+		<healthtrainer npc="false" empty="false" name="" level=""></healthtrainer>
+		<vocaltrainer npc="false" empty="false" name="" level=""></vocaltrainer>
+
+		<privateteacher npc="false" empty="false" name="" level=""></privateteacher>
+		<actingteacher npc="false" empty="false" name="" level=""></actingteacher>
+		<stylist npc="false" empty="false" name="" level=""></stylist>
+		<wearingspecial>0</wearingspecial>
+		<anim1></anim1>
+		<anim2></anim2>
+		<isnew>0</isnew>
+		<singing shout="38" empathy="39" audience="33" instrument="29" experformance="39" />
+
+		<acting musical="" emotion="40" mime="40" comedy="30" action="40" />
+		<modeling grotesque="28" hotpose="28" stickaction="24" balance="34" powerwalking="34" />
+	</char>
+		</characters>

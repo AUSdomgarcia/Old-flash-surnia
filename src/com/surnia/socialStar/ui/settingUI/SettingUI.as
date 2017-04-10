@@ -1,0 +1,230 @@
+package com.surnia.socialStar.ui.settingUI 
+{	
+	import com.surnia.socialStar.controllers.EventSatellite;
+	import com.surnia.socialStar.controllers.serverDataController.events.ServerDataControllerEvent;
+	import com.surnia.socialStar.data.GlobalData;
+	import com.surnia.socialStar.ui.popUI.tooltip.MiniTooltipManager;
+	import com.surnia.socialStar.ui.settingUI.events.SettingUIEvent;
+	import com.surnia.socialStar.utils.soundManager.SoundManager;
+	import flash.display.StageDisplayState;
+	
+	import flash.display.Sprite;
+	import flash.events.Event;
+	import flash.events.MouseEvent;
+	
+	/**
+	 * ...
+	 * @author monsterpatties
+	 */
+	public class SettingUI extends Sprite
+	{
+		/*-------------------------------------------------------------------Constant-------------------------------------------------------------------------*/
+		
+		
+		/*-------------------------------------------------------------------Properties-----------------------------------------------------------------------*/
+		private var _mc:SettingBtnMC;
+		private var _es:EventSatellite;
+		private var _soundManager:SoundManager;
+		private var _settingUIEvent:SettingUIEvent;
+		private var _mtm:MiniTooltipManager = MiniTooltipManager.instance;
+		private var _settingMenu:SettingMenu;
+		/*-------------------------------------------------------------------Constructor----------------------------------------------------------------------*/
+		
+		
+		public function SettingUI()
+		{
+			addEventListener( Event.ADDED_TO_STAGE, init ); //toggleFullscreen
+		}
+		
+		private function init(e:Event):void 
+		{
+			removeEventListener(Event.ADDED_TO_STAGE, init);
+			addEventListener( Event.REMOVED_FROM_STAGE, destroy );
+			prepareControllers();
+			setDisplay();
+			registerTooltipItem();			
+		}
+		
+		private function registerTooltipItem():void{			
+			_mtm.registerItem(_mc.settingBtnUp, "Show Settings", -_mc.settingBtnUp.width*2.5, -_mc.settingBtnUp.y);
+			_mtm.unregisterItem(_mc.settingBtnDown);			
+		}
+		
+		private function unregisterTooltipItem():void{
+			_mtm.unregisterItem(_mc.settingBtnUp);			
+			_mtm.registerItem(_mc.settingBtnDown, "Hide Settings", -_mc.settingBtnDown.width*2.5, -_mc.settingBtnDown.y);			
+		}
+		
+		private function destroy(e:Event):void 
+		{
+			removeEventListener(Event.REMOVED_FROM_STAGE, destroy);
+			removeDisplay();
+		}
+		
+		/*-------------------------------------------------------------------Methods-------------------------------------------------------------------------*/
+		private function setDisplay():void 
+		{
+			_mc = new SettingBtnMC();
+			addChild( _mc );
+			
+			addBtnlistener( _mc.settingBtnDown );
+			addBtnlistener( _mc.settingBtnUp );			
+		}
+		
+		private function removeDisplay():void 
+		{
+			if ( _mc != null ) {
+				removeBtnListner( _mc.settingBtnDown );
+				removeBtnListner( _mc.settingBtnUp );
+				if ( this.contains( _mc ) ) {
+					this.removeChild( _mc );
+					_mc = null;
+				}
+			}
+		}
+		
+		private function addBtnlistener( e:* ):void 
+		{
+			e.buttonMode = true;
+			e.addEventListener( MouseEvent.ROLL_OVER, onRollerOverBtn );
+			e.addEventListener( MouseEvent.ROLL_OUT, onRollerOutBtn );
+			e.addEventListener( MouseEvent.CLICK, onClickBtn );
+		}		
+		
+		private function removeBtnListner( e:* ):void 
+		{
+			e.buttonMode = false;
+			e.removeEventListener( MouseEvent.ROLL_OVER, onRollerOverBtn );
+			e.removeEventListener( MouseEvent.ROLL_OUT, onRollerOutBtn );			
+			e.removeEventListener( MouseEvent.CLICK, onClickBtn );
+		}
+		
+		
+		private function prepareControllers():void 
+		{
+			_es = EventSatellite.getInstance();
+			_es.addEventListener( ServerDataControllerEvent.SETTINGS_CHANGE, onSettingChange );
+			
+			_soundManager = SoundManager.getInstance();
+			_soundManager.SetBgmVolume( .4 );
+			_soundManager.setSfxVolume( .3 );
+			_soundManager.selectBgMusic( 0 );				
+			_soundManager.playBgMusic();
+			
+			//new
+			_soundManager.muteBgm();
+			_soundManager.muteSfx();
+		}
+		
+		private function checkSettings():void {
+			if (  GlobalData.instance.appBGM == 1 ) {
+				_soundManager.unMuteBgm();
+			}else {
+				_soundManager.muteBgm();
+			}
+			
+			if (  GlobalData.instance.appSFX == 1 ) {
+				_soundManager.unMuteSfx();
+			}else {
+				_soundManager.muteSfx();
+			}
+		}	
+		
+		
+		private function showSettingMenu():void 
+		{
+			_settingMenu = new SettingMenu();
+			addChild( _settingMenu );
+			_settingMenu.y = -(_settingMenu.height + 50 );
+		}
+		
+		private function removeSettingMenu():void 
+		{
+			if ( _settingMenu != null ) {
+				if ( this.contains( _settingMenu ) ) {
+					this.removeChild( _settingMenu )
+					_settingMenu = null;
+				}
+			}
+		}
+		/*-------------------------------------------------------------------Setters-------------------------------------------------------------------------*/
+		
+		/*-------------------------------------------------------------------Getters-------------------------------------------------------------------------*/
+		
+		/*-------------------------------------------------------------------EventHandlers-------------------------------------------------------------------*/
+		private function onRollerOutBtn(e:MouseEvent):void 
+		{
+			var btnName:String = e.currentTarget.name;
+			
+			
+			switch ( btnName ) 
+			{
+				case "settingBtnDown":
+					_mc.settingBtnDown.gotoAndStop( 1 );
+					break;
+				
+				case "settingBtnUp":
+					_mc.settingBtnUp.gotoAndStop( 1 );
+					break;				
+				
+				default:					
+				break;
+			}			
+		}
+		
+		private function onRollerOverBtn(e:MouseEvent):void 
+		{			
+			var btnName:String = e.currentTarget.name;
+			//trace( "se" ,btnName);
+			
+			switch ( btnName ) 
+			{
+				case "settingBtnDown":
+					_mc.settingBtnDown.gotoAndStop( 2 );					
+					break;
+				
+				case "settingBtnUp":
+					_mc.settingBtnUp.gotoAndStop( 2 );
+					break;					
+				
+				default:					
+				break;
+			}			
+		}
+		
+		private function onClickBtn(e:MouseEvent):void 
+		{
+			var btnName:String = e.currentTarget.name;			
+			
+			switch ( btnName ) 
+			{
+				case "settingBtnDown":					
+					removeSettingMenu();
+					_mc.gotoAndStop( 1 );
+					registerTooltipItem();
+					trace( "settingDown..." );					
+					break;
+				
+				case "settingBtnUp":					
+					showSettingMenu();
+					_mc.gotoAndStop( 2 );
+					unregisterTooltipItem();
+					trace( "settingUP..." );					
+					break;				
+				
+				default:					
+				break;
+			}
+			
+			if( _settingUIEvent != null ){
+				_es.dispatchESEvent( _settingUIEvent );
+			}
+		}
+		
+		private function onSettingChange(e:ServerDataControllerEvent):void 
+		{			
+			checkSettings();
+		}
+	}
+	
+}

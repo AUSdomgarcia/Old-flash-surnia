@@ -1,0 +1,35 @@
+
+<buildings ret="true" return="true" >
+			<bldg id="AZLMDdLhgKGTw7Btnxhe" name="b001" fn="1" x="43.6" y="477.25" z="0" lvlreq="1" buildingreq="" currentround="1" npcname="NPC1">
+								<round id="BzSL2Mdiqmk2OioRvNQifsKePc5jaLGbBYm3kGbRsBI8kwOWe" type="singer" difficulty="10" order="1" status="ongoing" npcfn="1" timeduration="41" coin="101" ap="1" bossscript="kasjdlakjsdjalskdja" />
+						<round id="5fNEdg5C8GJYHhBAIHbZzdixEUBaUgUzuYzN6uQ31ZR98S9Ga" type="bestcouple" difficulty="50" order="4" status="locked" npcfn="4" timeduration="42" coin="102" ap="2" bossscript="klajsdlkadjaasd" />
+						<round id="afQ4DD8YEXslshVHXiCHz69ON7Mg5S7UyMO2PMQUk96SgQZ5zc" type="runningman" difficulty="40" order="3" status="locked" npcfn="3" timeduration="43" coin="103" ap="3" bossscript="kljasdklajsdlaj" />
+						<round id="BoY4l7FH1YELMQaEgnU1NTwg1D7u4ZwhxvbZshhj6luI2LMYy" type="brainstorm" difficulty="30" order="2" status="locked" npcfn="2" timeduration="44" coin="104" ap="1" bossscript="kjasdlkajdalkj" />
+						<round id="hPC1BiqFea94Mgr98GreoQaPAiHMufARuCIwlz2FQ1dWqbUxI" type="runningman" difficulty="60" order="5" status="locked" npcfn="5" timeduration="45" coin="105" ap="2" bossscript="jkahsdakjsdhasdkjh" />
+			</bldg>
+		<bldg id="cKu1FCPd23Hnmo9Bsz42" name="b002" fn="2" x="58.75" y="345.6" z="0" lvlreq="2" buildingreq="b001" currentround="1" npcname="NPC2">
+								<round id="zbYPrZxymiUmzFp93QxuWDkWg8D9R1HGSgW7JyirJLhO1fHHT" type="singer" difficulty="10" order="1" status="locked" npcfn="6" timeduration="46" coin="106" ap="3" bossscript="jkahsdkjadhasdjkh" />
+						<round id="2eWc24Z52ru9yDfKCbU2CAKjPBFWJYNovqfoGZgxKemNxQbH" type="runningman" difficulty="20" order="2" status="locked" npcfn="1" timeduration="47" coin="107" ap="1" bossscript="klajsdalksdjalksdjlk" />
+						<round id="HaJHlsXmytwN8a9n6mtVJhfnJtn7EEHfNPG7msvVf9T6782jq" type="singer" difficulty="30" order="3" status="locked" npcfn="2" timeduration="48" coin="108" ap="2" bossscript="jkahsdakjsdhaslkdj" />
+			</bldg>
+		<bldg id="Xe2wvzQ79gvycokOLyc" name="b003" fn="3" x="183.6" y="130.2" z="0" lvlreq="3" buildingreq="b002" currentround="1" npcname="NPC3">
+								<round id="NsOsWYcAUcEZjkmyqjaZUw5SF1OCsyt6g9o3WG3ri8GHis7OSW" type="bestcouple" difficulty="40" order="1" status="locked" npcfn="3" timeduration="49" coin="109" ap="3" bossscript="mansdkjasdkkasdk" />
+						<round id="omJj5OZJRH8BCeqXVxQCWOIdw2ZBJwpw6PrKo1bwydzTcgqyT" type="brainstorm" difficulty="50" order="2" status="locked" npcfn="4" timeduration="50" coin="110" ap="1" bossscript="kajsdkljasdkljsdad" />
+						<round id="81pLJ81jAWowR5eciV5UKXKdzqKnHepSdzQUYPVu5ICymeX" type="brainstorm" difficulty="60" order="3" status="locked" npcfn="5" timeduration="51" coin="111" ap="2" bossscript="kllasdhnasdlkjasdklasdj" />
+			</bldg>
+		<bldg id="hnHllvJsuDCycPRJcAp" name="b005" fn="4" x="553.35" y="95.95" z="0" lvlreq="2" buildingreq="b004" currentround="1" npcname="NPC4">
+								<round id="8YsHv3klivOi3tNKMCbhbq3LlAOZnswkHes3WTd6Esd7brHoui" type="bestcouple" difficulty="80" order="1" status="locked" npcfn="4" timeduration="55" coin="115" ap="3" bossscript="jasdkasjdlaksjdj" />
+						<round id="LLPEX1FlQsUCSbhAT5TxzXgSU9AcmuAy6Q4TH95XqPZ9q8A2T" type="brainstorm" difficulty="90" order="2" status="locked" npcfn="4" timeduration="56" coin="116" ap="1" bossscript="mkhasdkjhasdhhjksdh" />
+						<round id="yqrUBTd6ueuqvn3l5PRJpQzmQ1djoKR9KSSJwO5R9kDmj6O" type="singer" difficulty="100" order="3" status="locked" npcfn="5" timeduration="57" coin="117" ap="2" bossscript="kasjdalksdjalskdjjasdlkj" />
+			</bldg>
+		<bldg id="mB35gm6NuMvUlQeb8uqS" name="b004" fn="5" x="408.45" y="239.2" z="0" lvlreq="5" buildingreq="b003" currentround="1" npcname="NPC5">
+								<round id="eLgn1xddDT8n8H57RNObAcVSb7VDgQRAbyoSlHwobtSY2MVJak" type="runningman" difficulty="60" order="1" status="locked" npcfn="2" timeduration="52" coin="112" ap="3" bossscript="jkasduasdasdjlkjasdj" />
+						<round id="laC8te4EhZVzaxnEFOL24nlLBcYXmy8NPAK9eEDCdY35Lf9RuK" type="singer" difficulty="70" order="2" status="locked" npcfn="1" timeduration="53" coin="113" ap="1" bossscript="sdfklsdfjjsdfkjdfjdf" />
+						<round id="JnxuzzNNMzCKDRKOQpTTrxsjr4FpKzzUdmETbSgoIiyM1aGpt" type="singer" difficulty="80" order="3" status="locked" npcfn="6" timeduration="54" coin="114" ap="2" bossscript="jnasdhasdkjkjasdk" />
+			</bldg>
+		<bldg id="JJcGBaXk5Cj7p8l5mojs" name="b006" fn="6" x="529.1" y="451.55" z="0" lvlreq="4" buildingreq="b005" currentround="1" npcname="NPC6">
+								<round id="aWgI7OCC4N3shVVmox5LcCuROkQpr6ZHS7QPKTRDgJwDfIpK6k" type="singer" difficulty="95" order="1" status="locked" npcfn="1" timeduration="58" coin="118" ap="3" bossscript="klajsdakldjaslkdjh" />
+						<round id="VXnFo2q6hX27fK4waDFrHm25pWCVh974WjBbp79Dy6jyVZ2b" type="runningman" difficulty="100" order="2" status="locked" npcfn="2" timeduration="59" coin="119" ap="1" bossscript="asdasdafsdfadad" />
+						<round id="G9D94tU6F35BvQkuRBaOdC6CBtYbkzhj3fcm1YrtSsejSP1Up" type="bestcouple" difficulty="100" order="3" status="locked" npcfn="1" timeduration="60" coin="120" ap="2" bossscript="jiashdaklsdjasdajdasd" />
+			</bldg>
+	</buildings>

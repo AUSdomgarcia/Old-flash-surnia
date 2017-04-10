@@ -1,0 +1,6 @@
+<office row="2" cols="2" name="Surnia Office">
+	<tile x="0" y="0" z="0" swf="path/chair.swf" fn="5" cat="Chairs" coll="1" rot="0" length="5" width="5" height="5"/>
+	<tile x="0" y="1" z="0" swf="path/walls01.swf" fn="3" cat="Walls" coll="0" rot="0" length="0" width="0" height="0"/>
+	<tile x="1" y="0" z="0" swf="path/tables01.swf" fn="7" cat="Tables" coll="1" rot="1" length="5" width="10" height="5"/>
+	<tile x="1" y="1" z="0" swf="path/tables01.swf" fn="1" cat="Tables" coll="1" rot="1" length="5" width="6" height="5"/>
+</office>

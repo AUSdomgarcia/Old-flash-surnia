@@ -1,0 +1,21 @@
+package com.surnia.socialStar.utils.soundManager.config 
+{		
+	/**
+	 * ...
+	 * @author jc
+	 */
+	public class SoundManagerConfig
+	{
+		//sets of bgMusic
+		//public static const BGM_LIST:Array = [  new RoomBgm, new MapBgm, new Sound1, new Sound2, new Sound3 ];
+		//public static const SOUND_EFFECT_LIST:Array = [ new CoinSfx, new ClickSfx, new CrowdBoo, new CrowdHappy, new HeartAcquired, new SkillActivated  ];
+		public static const BGM_LIST:Array = [  new RoomBgm, new MapBgm ];
+		public static const SOUND_EFFECT_LIST:Array = [ new CoinSfx, new ClickSfx ];
+		
+		
+		public static const BGM1:String = "BGM1";
+		public static const BGM2:String = "BGM2";
+		
+	}
+
+}

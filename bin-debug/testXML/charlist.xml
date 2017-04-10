@@ -1,0 +1,28 @@
+<ch c="1" ret="true">
+<c id="E" x="7" y="3" statmaxexp="3">
+<gender>Male</gender>
+<name>aa</name>
+<def>
+0101050101010001010000000000000000000000010101010101010101010101010000000000000001010101010101010000000000000000000000000000000000000000000000000000000000000000f8f4b0cec53ded8a4b792e2ef9c5afc67a64e5f5f962c3ea2d434b333543c67a64c67a64682c2dd06953c5dde1777e8d000000000000000000000000000000000000deefdf62c3ea
+</def>
+<health>1700</health>
+<sing>1115</sing>
+<act>2000</act>
+<attraction>1900</attraction>
+<intelligent>1700</intelligent>
+<level>1</level>
+<grade>Poor</grade>
+<popular>0</popular>
+<stress>10</stress>
+<cond>0</cond>
+<status>0</status>
+<wearingspecial>0</wearingspecial>
+<anim1/>
+<anim2/>
+<anim3/>
+<isnew>0</isnew>
+<singing shout="2230" empathy="3115" audience="3015" instrument="2815" experformance="2815"/>
+<acting musical="3115" emotion="4000" mime="4000" comedy="3700" action="3700"/>
+<modeling grotesque="3800" hotpose="3800" stickaction="3600" balance="3600" powerwalking="3600"/>
+</c>
+</ch>

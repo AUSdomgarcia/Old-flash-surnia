@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<docProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <pageTitle>socialstars</pageTitle>
+  <classPaths>D:\socialStars10242011\SocialStar_GroupSVN</classPaths>
+  <sourcesList>geometryFunctions.as</sourcesList>
+  <outputDirectory>D:\socialStars10242011\SocialStar_GroupSVN\src</outputDirectory>
+  <activeCompiler>1</activeCompiler>
+  <extraOptions />
+</docProject>

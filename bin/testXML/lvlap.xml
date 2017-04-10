@@ -1,0 +1,33 @@
+
+<lvlap>
+			<level lvl="1" exp="10" ap="20" />
+		<level lvl="2" exp="30" ap="20" />
+		<level lvl="3" exp="50" ap="20" />
+		<level lvl="4" exp="80" ap="20" />
+		<level lvl="5" exp="120" ap="22" />
+		<level lvl="6" exp="170" ap="22" />
+		<level lvl="7" exp="230" ap="22" />
+		<level lvl="8" exp="300" ap="22" />
+		<level lvl="9" exp="380" ap="22" />
+		<level lvl="10" exp="470" ap="24" />
+		<level lvl="11" exp="570" ap="24" />
+		<level lvl="12" exp="680" ap="24" />
+		<level lvl="13" exp="800" ap="24" />
+		<level lvl="14" exp="930" ap="24" />
+		<level lvl="15" exp="1070" ap="26" />
+		<level lvl="16" exp="1220" ap="26" />
+		<level lvl="17" exp="1380" ap="26" />
+		<level lvl="18" exp="1550" ap="26" />
+		<level lvl="19" exp="1730" ap="26" />
+		<level lvl="20" exp="1920" ap="28" />
+		<level lvl="21" exp="2120" ap="28" />
+		<level lvl="22" exp="2330" ap="28" />
+		<level lvl="23" exp="2550" ap="28" />
+		<level lvl="24" exp="2780" ap="28" />
+		<level lvl="25" exp="3020" ap="30" />
+		<level lvl="26" exp="3270" ap="30" />
+		<level lvl="27" exp="3530" ap="30" />
+		<level lvl="28" exp="3800" ap="30" />
+		<level lvl="29" exp="4080" ap="30" />
+		<level lvl="30" exp="9999999" ap="32" />
+	</lvlap>

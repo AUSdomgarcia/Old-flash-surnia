@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/geom/transformations
+END
+IsometricTransformation.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/geom/transformations/IsometricTransformation.as
+END
+DimetricTransformation.as
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/geom/transformations/DimetricTransformation.as
+END
+IAxonometricTransformation.as
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/geom/transformations/IAxonometricTransformation.as
+END
+DefaultIsometricTransformation.as
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/geom/transformations/DefaultIsometricTransformation.as
+END

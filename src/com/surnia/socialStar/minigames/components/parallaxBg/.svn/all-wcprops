@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/SocialStar/!svn/ver/1892/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/minigames/components/parallaxBg
+END
+parallaxBg.as
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/SocialStar/!svn/ver/1890/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/minigames/components/parallaxBg/parallaxBg.as
+END
+testParallaxBg.as
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/SocialStar/!svn/ver/1207/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/minigames/components/parallaxBg/testParallaxBg.as
+END
+ParallaxManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/SocialStar/!svn/ver/1891/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/minigames/components/parallaxBg/ParallaxManager.as
+END
+parallaxBgController.as
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/SocialStar/!svn/ver/1765/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/minigames/components/parallaxBg/parallaxBgController.as
+END
+parallaxBgView.as
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/SocialStar/!svn/ver/1766/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/minigames/components/parallaxBg/parallaxBgView.as
+END
+parallaxObject.as
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/SocialStar/!svn/ver/1892/ProgrammerTeam/SocialStar/src/com/surnia/socialStar/minigames/components/parallaxBg/parallaxObject.as
+END

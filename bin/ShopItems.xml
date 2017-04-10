@@ -1,0 +1,69 @@
+<storeitems file="koreanitems01.swf">
+	 <category name="Staff" source="Staff" depth="1">
+      <product name="Scouter" pricecoin="10" pricecredit="" reqlvl="1" itemID="3" description="(1x1) 1Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Financier" pricecoin="1000" pricecredit="" reqlvl="1" itemID="4" description="(1x1) 2Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Layer" pricecoin="100" pricecredit="" reqlvl="1" itemID="1" description="(1x1) 3Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Marketer" pricecoin="100" pricecredit="" reqlvl="1" itemID="5" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Fireman" pricecoin="" pricecredit="50" reqlvl="1" itemID="6" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	</category>
+	<category name="Training" source="Training" depth="1">
+      <product name="Dumbell" pricecoin="10" pricecredit="" reqlvl="1" itemID="1" description="(1x1) 1Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Mic" pricecoin="1000" pricecredit="" reqlvl="1" itemID="2" description="(1x1) 2Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Script" pricecoin="100" pricecredit="" reqlvl="1" itemID="3" description="(1x1) 3Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Book" pricecoin="100" pricecredit="" reqlvl="1" itemID="4" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Mirror" pricecoin="150" pricecredit="" reqlvl="1" itemID="5" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	</category>
+    <category name="Machine" source="Machine" depth="1">
+      <product name="Vending Machine" pricecoin="10" reqlvl="1" pricecredit=""  itemID="1" description="(1x1) 1Bla Bla bla" l="" w="38" h="38"  />
+      <product name="ATM" pricecoin="1000" pricecredit="" reqlvl="1" itemID="2" description="(1x1) 2Bla Bla bla" l="" w="38" h="38"  />
+      <product name="PiggyBank" pricecoin="100" pricecredit="" reqlvl="1" itemID="3" description="(1x1) 3Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Lotto" pricecoin="100" pricecredit="" reqlvl="1" itemID="4" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Box" pricecoin="150" pricecredit="" reqlvl="1" itemID="5" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Bed" pricecoin="100" pricecredit="" reqlvl="1" itemID="3" description="(1x1) 3Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Water" pricecoin="100" pricecredit="" reqlvl="1" itemID="4" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />	 
+	  </category>
+   <category name="Deco" source="Deco" depth="1">
+      <product name="Door 01" pricecoin="10" pricecredit="" reqlvl="1" itemID="1" description="(1x1) 1Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Window 02" pricecoin="20" pricecredit="" reqlvl="1" itemID="2" description="(1x1) 2Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Cabinet 03" pricecoin="50" pricecredit="" reqlvl="1" itemID="3" description="(1x1) 3Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Cabinet 04" pricecoin="100" pricecredit="" reqlvl="1" itemID="4" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Cabinet 05" pricecoin="200" pricecredit="" reqlvl="1" itemID="5" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Cabinet 06" pricecoin="300" pricecredit="" reqlvl="2" itemID="6" description="(1x1) 4Bla Bla bla" l=""w="38" h="38"  />
+	  <product name="Cabinet 07" pricecoin="400" pricecredit="" reqlvl="2" itemID="7" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Cabinet 08" pricecoin="500" pricecredit="" reqlvl="2" itemID="8" description="(1x1) 4Bla Bla bla" l="" w="38" h="76"  />
+	  <product name="Cabinet 09" pricecoin="" pricecredit="20" reqlvl="2" itemID="9" description="(1x1) 4Bla Bla bla" l="" w="38" h="76"  />  
+	  <product name="Cabinet 10" pricecoin="" pricecredit="60" reqlvl="2" itemID="10" description="(1x1) 1Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Cabinet 11" pricecoin="" pricecredit="100" reqlvl="2" itemID="11" description="(1x1) 1Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Cabinet 12" pricecoin="" pricecredit="150" reqlvl="2" itemID="12" description="(1x1) 2Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Cabinet 13" pricecoin="" pricecredit="200" reqlvl="2" itemID="13" description="(1x1) 3Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Cabinet 14" pricecoin="" pricecredit="300" reqlvl="3" itemID="14" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Cabinet 15" pricecoin="" pricecredit="500" reqlvl="3" itemID="15" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Cabinet 16" pricecoin="" pricecredit="600" reqlvl="3" itemID="16" description="(1x1) 4Bla Bla bla" l=""w="38" h="38"  />
+	  <product name="Cabinet 17" pricecoin="" pricecredit="700" reqlvl="3" itemID="17" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Cabinet 18" pricecoin="" pricecredit="800" reqlvl="3" itemID="18" description="(1x1) 4Bla Bla bla" l="" w="38" h="76"  />
+	  <product name="Cabinet 19" pricecoin="" pricecredit="1000" reqlvl="3" itemID="19" description="(1x1) 4Bla Bla bla" l="" w="38" h="76"  />  
+	  </category>
+	 <category name="Tile" source="IconTile" depth="1">
+      <product name="Wall 01" pricecoin="10" pricecredit="" reqlvl="1" itemID="1" description="(1x1) 1Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Wall 02" pricecoin="1000" pricecredit="" reqlvl="1" itemID="2" description="(1x1) 2Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Floor 03" pricecoin="100" pricecredit="" reqlvl="2" itemID="3" description="(1x1) 3Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Floor 04" pricecoin="100" pricecredit="" reqlvl="24"  itemID="4" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Floor 05" pricecoin="150" pricecredit="" reqlvl="29" itemID="5" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Wall 01" pricecoin="10" pricecredit="" reqlvl="1" itemID="6" description="(1x1) 1Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Wall 02" pricecoin="1000" pricecredit="" reqlvl="1" itemID="7" description="(1x1) 2Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Floor 03" pricecoin="100" pricecredit="" reqlvl="2" itemID="8" description="(1x1) 3Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Floor 04" pricecoin="100" pricecredit="" reqlvl="24"  itemID="9" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="Floor 05" pricecoin="150" pricecredit="" reqlvl="29" itemID="10" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+     </category>
+	 <category name="Expansion" source="Expansion" depth="1">
+      <product name="Expansion 01" pricecoin="1000" pricecredit=""  reqlvl="1" itemID="1" description="(1x1) 1Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Expansion 02" pricecoin="" pricecredit="30" reqlvl="24" itemID="9" description="(1x1) 2Bla Bla bla" l="" w="38" h="38"  />
+     </category>
+	 <category name="Power" source="Power" depth="1">
+      <product name="Coin 01" pricecoin="10" pricecredit="" reqlvl="2"  itemID="1" description="(1x1) 1Bla Bla bla" l="" w="38" h="38"  />
+      <product name="Coin 02" pricecoin="1000" pricecredit="" reqlvl="3" itemID="9" description="(1x1) 2Bla Bla bla" l="" w="38" h="38"  />
+      <product name="AP 03" pricecoin="100" pricecredit="" reqlvl="1" itemID="3" description="(1x1) 3Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="AP 04" pricecoin="100" pricecredit="" reqlvl="1" itemID="4" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+	  <product name="AP 05" pricecoin="150" pricecredit="" reqlvl="4" itemID="5" description="(1x1) 4Bla Bla bla" l="" w="38" h="38"  />
+		</category>
+</storeitems>

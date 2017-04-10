@@ -1,0 +1,42 @@
+package 
+{	
+	import com.surnia.socialStar.test.CharacterPanelTest;
+	import com.surnia.socialStar.test.MainUITest;
+	import com.surnia.socialStar.test.PopUIManagerTest;
+	import com.surnia.socialStar.test.SoundManagerTest;
+	import com.surnia.socialStar.ui.popUI.config.WindowPopUpConfig;
+	import com.surnia.socialStar.ui.popUI.views.MiniMapPopUpWindow;
+	import flash.display.Sprite;
+	import flash.events.Event;
+
+	/**
+	 * ...
+	 * @author monsterpatties
+	 */
+	
+	[Frame(factoryClass="Preloader")]
+	public class Main extends Sprite 
+	{
+
+		public function Main():void 
+		{
+			if (stage) init();
+			else addEventListener(Event.ADDED_TO_STAGE, init);
+		}
+
+		private function init(e:Event = null):void 
+		{
+			removeEventListener(Event.ADDED_TO_STAGE, init);
+			// entry point			
+			//var mainUITest:MainUITest = new MainUITest();
+			//addChild(  mainUITest );
+			
+			var charTest:CharacterPanelTest = new CharacterPanelTest();
+			addChild( charTest );
+			
+			//addChild( new MiniMapPopUpWindow( WindowPopUpConfig.MINI_MAP_POPUP_WINDOW, 100, 100 ) );
+			//addChild( new PopUIManagerTest() );
+		}
+	}
+
+}

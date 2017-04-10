@@ -1,0 +1,34 @@
+<buildings ret="true" return="true">
+<bldg id="AZLMDdLhgKGTw7Btnxhe" name="b001" fn="1" x="43.6" y="477.25" z="0" lvlreq="1" buildingreq="" currentround="5" npcname="NPC1" npcfn="1">
+<round id="xtmvguCgygidpyO1NatjQ6FuttRAECxyojUZl2NHZrxOrBE6b" type="supermodel" difficulty="10" order="1" status="ongoing" timeduration="41" coin="101" ap="1" bossscript="kasjdlakjsdjalskdja"/>
+<round id="yesukcdTudYwRNb1i1cZEjzwXDdZIY183jrdCLwwoLj7YBx83P" type="moviestar" difficulty="50" order="4" status="ongoing" timeduration="42" coin="102" ap="2" bossscript="klajsdlkadjaasd"/>
+<round id="W7zLtNPMmXkdUdCC7FNt326cyTdlQW2nSrzB5EOgczxSBzPHC" type="iamsinger" difficulty="40" order="3" status="ongoing" timeduration="43" coin="103" ap="3" bossscript="kljasdklajsdlaj"/>
+<round id="55bsO6UfRLIk39mwC1SfpRS9THObJNaDH3wVxG2ESoK8R8A" type="supermodel" difficulty="30" order="2" status="ongoing" timeduration="44" coin="104" ap="1" bossscript="kjasdlkajdalkj"/>
+<round id="HPfxhxv26ASENtIVl5rYBidTiIdgZahgqDUO1GGwGZ1UI9pt4X" type="moviestar" difficulty="60" order="5" status="ongoing" timeduration="45" coin="105" ap="2" bossscript="jkahsdakjsdhasdkjh"/>
+</bldg>
+<bldg id="cKu1FCPd23Hnmo9Bsz42" name="b002" fn="2" x="58.75" y="345.6" z="0" lvlreq="2" buildingreq="b001" currentround="1" npcname="NPC2" npcfn="2">
+<round id="I56lNetrAJHhpykADbGKNMjEgsDMc8jk2fMF7wF5hvsIvwk2" type="iamsinger" difficulty="10" order="1" status="locked" timeduration="46" coin="106" ap="3" bossscript="jkahsdkjadhasdjkh"/>
+<round id="7yEg4lO7yq4XQv3c13Zm2egZPPiBCI4989e1jsxXZqvpcoISgh" type="supermodel" difficulty="20" order="2" status="locked" timeduration="47" coin="107" ap="1" bossscript="klajsdalksdjalksdjlk"/>
+<round id="6YCbxSrWTteNscLNSu7FIVw4AOhJhDrccu5PCllWVGjDiuQ2fM" type="iamsinger" difficulty="30" order="3" status="locked" timeduration="48" coin="108" ap="2" bossscript="jkahsdakjsdhaslkdj"/>
+</bldg>
+<bldg id="Xe2wvzQ79gvycokOLyc" name="b003" fn="3" x="183.6" y="130.2" z="0" lvlreq="3" buildingreq="b002" currentround="1" npcname="NPC3" npcfn="3">
+<round id="7nhthi9FsfJa9lK32MedizjI4I3JYW7B5pjdnpMJymHawARe" type="moviestar" difficulty="40" order="1" status="locked" timeduration="49" coin="109" ap="3" bossscript="mansdkjasdkkasdk"/>
+<round id="uiUUqNcjXc8tYoDiHrOU1D79ds9vsdgQx17BTfYvdIJcwNB55" type="supermodel" difficulty="50" order="2" status="locked" timeduration="50" coin="110" ap="1" bossscript="kajsdkljasdkljsdad"/>
+<round id="POvSKuw4shmMD3A5zBNVZyhJQUWSORidD1oxmigKKsNCsI2tV" type="supermodel" difficulty="60" order="3" status="locked" timeduration="51" coin="111" ap="2" bossscript="kllasdhnasdlkjasdklasdj"/>
+</bldg>
+<bldg id="hnHllvJsuDCycPRJcAp" name="b005" fn="4" x="553.35" y="95.95" z="0" lvlreq="2" buildingreq="b004" currentround="1" npcname="NPC4" npcfn="4">
+<round id="MJUBqdRA1kPHIsLX9m6ewFMAH6IpeMyzNfSfgJFvROecN2az" type="moviestar" difficulty="80" order="1" status="locked" timeduration="55" coin="115" ap="3" bossscript="jasdkasjdlaksjdj"/>
+<round id="w6m2HmDvsPLgEZBX6hhBTyPxRcprSbm6TuiTyTSgjeCo5ECz" type="supermodel" difficulty="90" order="2" status="locked" timeduration="56" coin="116" ap="1" bossscript="mkhasdkjhasdhhjksdh"/>
+<round id="lj15YFspiXX2yAwIuUbiouFOPH3JM5xezs36ahey5Vn6IvpdN" type="iamsinger" difficulty="100" order="3" status="locked" timeduration="57" coin="117" ap="2" bossscript="kasjdalksdjalskdjjasdlkj"/>
+</bldg>
+<bldg id="mB35gm6NuMvUlQeb8uqS" name="b004" fn="5" x="408.45" y="239.2" z="0" lvlreq="5" buildingreq="b003" currentround="1" npcname="NPC5" npcfn="5">
+<round id="OH9UWNbOXnJXbnMKgIlEmZ9C5HykkBzsAJENkSlOc9qGL1mUb" type="moviestar" difficulty="60" order="1" status="locked" timeduration="52" coin="112" ap="3" bossscript="jkasduasdasdjlkjasdj"/>
+<round id="q71q64kCrKmtVtIZ8tsj9KioQte4D7kAwQ7q1XBmHA81JWy3" type="iamsinger" difficulty="70" order="2" status="locked" timeduration="53" coin="113" ap="1" bossscript="sdfklsdfjjsdfkjdfjdf"/>
+<round id="FY2P7fgpAat7AutRrZIqxJS5KPvUmjNr9E85jdkj5Ug6EPMwoV" type="iamsinger" difficulty="80" order="3" status="locked" timeduration="54" coin="114" ap="2" bossscript="jnasdhasdkjkjasdk"/>
+</bldg>
+<bldg id="JJcGBaXk5Cj7p8l5mojs" name="b006" fn="6" x="529.1" y="451.55" z="0" lvlreq="4" buildingreq="b005" currentround="1" npcname="NPC6" npcfn="6">
+<round id="cbfvWpBHnrNVpRSj1wJard8miMyU2KxSpipUkwUNdijJz2sqo" type="iamsinger" difficulty="95" order="1" status="locked" timeduration="58" coin="118" ap="3" bossscript="klajsdakldjaslkdjh"/>
+<round id="3HVWE86QwQH8DammF8M3SaV1fp2NWgFd2chzXymn6jqWMTcJg" type="supermodel" difficulty="100" order="2" status="locked" timeduration="59" coin="119" ap="1" bossscript="asdasdafsdfadad"/>
+<round id="Ub7qS7L9yZUUfxM8VCUJo9FOpcb95kePCb7UXHTLhngCasAwuU" type="moviestar" difficulty="100" order="3" status="locked" timeduration="60" coin="120" ap="2" bossscript="jiashdaklsdjasdajdasd"/>
+</bldg>
+</buildings>

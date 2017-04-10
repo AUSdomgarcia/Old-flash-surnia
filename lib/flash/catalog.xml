@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flash version="11.0" build="d476" platform="WIN" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-components />
+    <feature-files />
+  </features>
+  <components>
+    <component className="ImportFlashClasses" name="ImportFlashClasses" tooltip="ImportFlashClasses"  />
+  </components>
+  <libraries>
+    <library path="library.swf">
+      <script name="fl/motion/motion_internal" mod="1269538372917" >
+        <def id="fl.motion:motion_internal" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="fl/motion/easing/Quartic" mod="1269538372886" >
+        <def id="fl.motion.easing:Quartic" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/DynamicMatrix" mod="1269538372198" >
+        <def id="fl.motion:DynamicMatrix" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/Bounce" mod="1269538373479" >
+        <def id="fl.transitions.easing:Bounce" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/easing/Circular" mod="1269538372761" >
+        <def id="fl.motion.easing:Circular" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/AdjustColor" mod="1269538371589" >
+        <def id="fl.motion:AdjustColor" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="fl.motion:ColorMatrix" type="e" /> 
+        <dep id="fl.motion:ColorMatrix" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/easing/Linear" mod="1269538372854" >
+        <def id="fl.motion.easing:Linear" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/MatrixTransformer" mod="1269538372401" >
+        <def id="fl.motion:MatrixTransformer" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/easing/Elastic" mod="1269538372792" >
+        <def id="fl.motion.easing:Elastic" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/RotateDirection" mod="1269538372636" >
+        <def id="fl.motion:RotateDirection" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/None" mod="1269538373589" >
+        <def id="fl.transitions.easing:None" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/Elastic" mod="1269538373511" >
+        <def id="fl.transitions.easing:Elastic" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/MatrixTransformer3D" mod="1269538372417" >
+        <def id="fl.motion:MatrixTransformer3D" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/easing/Cubic" mod="1269538372776" >
+        <def id="fl.motion.easing:Cubic" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/Strong" mod="1269538373604" >
+        <def id="fl.transitions.easing:Strong" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/easing/Exponential" mod="1269538372823" >
+        <def id="fl.motion.easing:Exponential" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/BezierSegment" mod="1269538372167" >
+        <def id="fl.motion:BezierSegment" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/Source" mod="1269538372714" >
+        <def id="fl.motion:Source" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/easing/Bounce" mod="1269538372745" >
+        <def id="fl.motion.easing:Bounce" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/Regular" mod="1269538373604" >
+        <def id="fl.transitions.easing:Regular" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/easing/Sine" mod="1269538372901" >
+        <def id="fl.motion.easing:Sine" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/easing/Back" mod="1269538372729" >
+        <def id="fl.motion.easing:Back" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/Tweenables" mod="1269538372714" >
+        <def id="fl.motion:Tweenables" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/easing/Quadratic" mod="1269538372870" >
+        <def id="fl.motion.easing:Quadratic" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/ITween" mod="1269538372229" >
+        <def id="fl.motion:ITween" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/easing/Quintic" mod="1269538372901" >
+        <def id="fl.motion.easing:Quintic" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/transitions/easing/Back" mod="1269538373464" >
+        <def id="fl.transitions.easing:Back" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/KeyframeBase" mod="1269538372354" >
+        <def id="fl.motion:KeyframeBase" /> 
+        <dep id="flash.filters:BitmapFilter" type="e" /> 
+        <dep id="fl.motion:Color" type="e" /> 
+        <dep id="fl.motion:AdjustColor" type="e" /> 
+        <dep id="flash.filters:ColorMatrixFilter" type="e" /> 
+        <dep id="fl.motion:RotateDirection" type="e" /> 
+        <dep id="flash.display:BlendMode" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="fl.motion:Color" type="s" /> 
+        <dep id="fl.motion:AdjustColor" type="s" /> 
+        <dep id="flash.filters:ColorMatrixFilter" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/AnimatorFactoryBase" mod="1269538372136" >
+        <def id="fl.motion:AnimatorFactoryBase" /> 
+        <dep id="fl.motion:AnimatorBase" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="flash.display:SimpleButton" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="fl.motion:MotionBase" type="s" /> 
+        <dep id="fl.motion:AnimatorBase" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/MotionBase" mod="1269538372573" >
+        <def id="fl.motion:MotionBase" /> 
+        <dep id="flash.filters:BitmapFilter" type="e" /> 
+        <dep id="fl.motion:Color" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="fl.motion:KeyframeBase" type="e" /> 
+        <dep id="flash.filters:BitmapFilter" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.geom:ColorTransform" type="s" /> 
+        <dep id="fl.motion:KeyframeBase" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="fl.motion:motion_internal" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/events/RSLEvent" mod="1269538371308" >
+        <def id="fl.events:RSLEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="fl/motion/MotionEvent" mod="1269538372620" >
+        <def id="fl.motion:MotionEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="fl/transitions/TweenEvent" mod="1269538373401" >
+        <def id="fl.transitions:TweenEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="fl/motion/ColorMatrix" mod="1269538372183" >
+        <def id="fl.motion:ColorMatrix" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:DynamicMatrix" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/SimpleEase" mod="1269538372667" >
+        <def id="fl.motion:SimpleEase" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:ITween" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/BezierEase" mod="1269538372167" >
+        <def id="fl.motion:BezierEase" /> 
+        <dep id="fl.motion:CustomEase" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:ITween" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/FunctionEase" mod="1269538372214" >
+        <def id="fl.motion:FunctionEase" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:ITween" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/CustomEase" mod="1269538372183" >
+        <def id="fl.motion:CustomEase" /> 
+        <dep id="fl.motion:BezierSegment" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="fl.motion:BezierSegment" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:ITween" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/motion/Keyframe" mod="1269538372261" >
+        <def id="fl.motion:Keyframe" /> 
+        <dep id="fl.motion:SimpleEase" type="e" /> 
+        <dep id="fl.motion:Color" type="e" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+        <dep id="fl.motion:CustomEase" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="fl.motion:BezierEase" type="e" /> 
+        <dep id="fl.motion:ITween" type="e" /> 
+        <dep id="fl.motion:FunctionEase" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.filters:BitmapFilter" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="fl.motion:ITween" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:KeyframeBase" type="i" /> 
+      </script>
+      <script name="fl/motion/AnimatorFactory" mod="1269538372136" >
+        <def id="fl.motion:AnimatorFactory" /> 
+        <dep id="fl.motion:Animator" type="e" /> 
+        <dep id="fl.motion:MotionBase" type="s" /> 
+        <dep id="fl.motion:AnimatorBase" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:AnimatorFactoryBase" type="i" /> 
+      </script>
+      <script name="fl/motion/AnimatorFactoryUniversal" mod="1269538372151" >
+        <def id="fl.motion:AnimatorFactoryUniversal" /> 
+        <dep id="fl.motion:AnimatorUniversal" type="e" /> 
+        <dep id="fl.motion:MotionBase" type="s" /> 
+        <dep id="fl.motion:AnimatorBase" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:AnimatorFactoryBase" type="i" /> 
+      </script>
+      <script name="fl/motion/AnimatorFactory3D" mod="1269538372136" >
+        <def id="fl.motion:AnimatorFactory3D" /> 
+        <dep id="fl.motion:Animator3D" type="e" /> 
+        <dep id="fl.motion:MotionBase" type="s" /> 
+        <dep id="fl.motion:AnimatorBase" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:AnimatorFactoryBase" type="i" /> 
+      </script>
+      <script name="fl/motion/Motion" mod="1269538372495" >
+        <def id="fl.motion:Motion" /> 
+        <dep id="fl.motion:Color" type="e" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+        <dep id="fl.motion:Source" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="fl.motion:RotateDirection" type="e" /> 
+        <dep id="fl.motion:Tweenables" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="fl.motion:Keyframe" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="flash.filters:GradientGlowFilter" type="e" /> 
+        <dep id="flash.filters:GradientBevelFilter" type="e" /> 
+        <dep id="flash.filters:BitmapFilter" type="s" /> 
+        <dep id="fl.motion:Source" type="s" /> 
+        <dep id="fl.motion:Keyframe" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="fl.motion:ITween" type="s" /> 
+        <dep id="flash.geom:ColorTransform" type="s" /> 
+        <dep id="fl.motion:KeyframeBase" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:MotionBase" type="i" /> 
+      </script>
+      <script name="fl/motion/Color" mod="1269538372183" >
+        <def id="fl.motion:Color" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.geom:ColorTransform" type="i" /> 
+      </script>
+      <script name="fl/transitions/Transition" mod="1269538373167" >
+        <def id="fl.transitions:Transition" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="fl.transitions:TweenEvent" type="e" /> 
+        <dep id="fl.transitions:Tween" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="fl.transitions:Tween" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="fl/transitions/TransitionManager" mod="1269538373386" >
+        <def id="fl.transitions:TransitionManager" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="fl.transitions:Transition" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="fl/rsl/RSLInfo" mod="1269538372948" >
+        <def id="fl.rsl:RSLInfo" /> 
+        <dep id="SecurityError" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="flash.system:ApplicationDomain" type="e" /> 
+        <dep id="flash.net:URLLoaderDataFormat" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.system:LoaderContext" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="SecurityError" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="flash.events:IOErrorEvent" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="flash.system:LoaderContext" type="s" /> 
+        <dep id="flash.events:ErrorEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="fl/transitions/Tween" mod="1269538373401" >
+        <def id="fl.transitions:Tween" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="fl.transitions:TweenEvent" type="e" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="fl/rsl/RSLPreloader" mod="1269538412745" >
+        <def id="fl.rsl:RSLPreloader" /> 
+        <dep id="SecurityError" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="flash.system:ApplicationDomain" type="e" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="fl.events:RSLEvent" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="fl.rsl:RSLInfo" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="flash.display:Stage" type="e" /> 
+        <dep id="flash.system:LoaderContext" type="e" /> 
+        <dep id="fl.events:RSLErrorEvent" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="SecurityError" type="s" /> 
+        <dep id="fl.rsl:RSLInfo" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="flash.events:IOErrorEvent" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="flash.system:LoaderContext" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.events:ErrorEvent" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="fl/lang/Locale" mod="1269538371479" >
+        <def id="fl.lang:Locale" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.xml:XMLDocument" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.xml:XMLNode" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="flash.xml:XMLDocument" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="fl/motion/AnimatorBase" mod="1269538371854" >
+        <def id="fl.motion:AnimatorBase" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.geom:ColorTransform" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="fl.motion:MotionEvent" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="fl.motion:MotionBase" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:SimpleButton" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.geom:ColorTransform" type="s" /> 
+        <dep id="fl.motion:KeyframeBase" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="fl.motion:motion_internal" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="fl/transitions/Squeeze" mod="1269538373151" >
+        <def id="fl.transitions:Squeeze" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Wipe" mod="1269538373401" >
+        <def id="fl.transitions:Wipe" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Blinds" mod="1269538373058" >
+        <def id="fl.transitions:Blinds" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Fly" mod="1269538373073" >
+        <def id="fl.transitions:Fly" /> 
+        <dep id="flash.display:StageScaleMode" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Fade" mod="1269538373073" >
+        <def id="fl.transitions:Fade" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Rotate" mod="1269538373136" >
+        <def id="fl.transitions:Rotate" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/PixelDissolve" mod="1269538373136" >
+        <def id="fl.transitions:PixelDissolve" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Zoom" mod="1269538373464" >
+        <def id="fl.transitions:Zoom" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Photo" mod="1269538373120" >
+        <def id="fl.transitions:Photo" /> 
+        <dep id="flash.geom:ColorTransform" type="e" /> 
+        <dep id="flash.geom:ColorTransform" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/transitions/Iris" mod="1269538373104" >
+        <def id="fl.transitions:Iris" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="fl.transitions:TransitionManager" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.transitions:Transition" type="i" /> 
+      </script>
+      <script name="fl/rsl/SWZInfo" mod="1269538373026" >
+        <def id="fl.rsl:SWZInfo" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.rsl:RSLInfo" type="i" /> 
+      </script>
+      <script name="fl/motion/Animator3D" mod="1269538371667" >
+        <def id="fl.motion:Animator3D" /> 
+        <dep id="fl.motion:MatrixTransformer3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="fl.motion:Tweenables" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="fl.motion:MotionBase" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="fl.motion:motion_internal" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:AnimatorBase" type="i" /> 
+      </script>
+      <script name="fl/motion/Animator" mod="1269538371636" >
+        <def id="fl.motion:Animator" /> 
+        <dep id="fl.motion:MatrixTransformer" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="fl.motion:Tweenables" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="fl.motion:Motion" type="e" /> 
+        <dep id="fl.motion:MotionBase" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="fl.motion:KeyframeBase" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="fl.motion:Motion" type="s" /> 
+        <dep id="fl.motion:motion_internal" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:AnimatorBase" type="i" /> 
+      </script>
+      <script name="fl/events/RSLErrorEvent" mod="1269538371167" >
+        <def id="fl.events:RSLErrorEvent" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:ErrorEvent" type="i" /> 
+      </script>
+      <script name="fl/motion/AnimatorUniversal" mod="1269538372151" >
+        <def id="fl.motion:AnimatorUniversal" /> 
+        <dep id="fl.motion:Animator" type="e" /> 
+        <dep id="fl.motion:MatrixTransformer" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="fl.motion:Tweenables" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="fl.motion:MotionBase" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="fl.motion:KeyframeBase" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="fl.motion:motion_internal" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.motion:Animator3D" type="i" /> 
+      </script>
+      <script name="ImportFlashClasses" mod="1269538436573" >
+        <def id="ImportFlashClasses" /> 
+        <dep id="fl.motion:Animator" type="e" /> 
+        <dep id="fl.motion.easing:Sine" type="e" /> 
+        <dep id="fl.motion:BezierEase" type="e" /> 
+        <dep id="fl.motion.easing:Circular" type="e" /> 
+        <dep id="fl.motion.easing:Quartic" type="e" /> 
+        <dep id="fl.events:RSLEvent" type="e" /> 
+        <dep id="fl.motion:Motion" type="e" /> 
+        <dep id="fl.transitions.easing:Bounce" type="e" /> 
+        <dep id="fl.motion:MatrixTransformer3D" type="e" /> 
+        <dep id="fl.transitions:TweenEvent" type="e" /> 
+        <dep id="fl.transitions:Transition" type="e" /> 
+        <dep id="fl.transitions:Zoom" type="e" /> 
+        <dep id="fl.transitions.easing:Back" type="e" /> 
+        <dep id="fl.motion:AnimatorUniversal" type="e" /> 
+        <dep id="fl.motion:SimpleEase" type="e" /> 
+        <dep id="fl.transitions.easing:Elastic" type="e" /> 
+        <dep id="fl.transitions:Wipe" type="e" /> 
+        <dep id="fl.motion:AnimatorFactoryUniversal" type="e" /> 
+        <dep id="fl.livepreview:LivePreviewParent" type="e" /> 
+        <dep id="fl.motion:AnimatorFactory" type="e" /> 
+        <dep id="fl.transitions:Rotate" type="e" /> 
+        <dep id="fl.motion:FunctionEase" type="e" /> 
+        <dep id="fl.motion:Animator3D" type="e" /> 
+        <dep id="fl.motion:AnimatorFactory3D" type="e" /> 
+        <dep id="fl.motion.easing:Cubic" type="e" /> 
+        <dep id="fl.transitions:Squeeze" type="e" /> 
+        <dep id="fl.transitions:Blinds" type="e" /> 
+        <dep id="fl.transitions:Fade" type="e" /> 
+        <dep id="fl.motion:ITween" type="e" /> 
+        <dep id="fl.transitions:Iris" type="e" /> 
+        <dep id="fl.motion:Source" type="e" /> 
+        <dep id="fl.motion:MatrixTransformer" type="e" /> 
+        <dep id="fl.motion:DynamicMatrix" type="e" /> 
+        <dep id="fl.rsl:RSLPreloader" type="e" /> 
+        <dep id="fl.motion:MotionEvent" type="e" /> 
+        <dep id="fl.motion.easing:Bounce" type="e" /> 
+        <dep id="fl.transitions.easing:Strong" type="e" /> 
+        <dep id="fl.transitions:PixelDissolve" type="e" /> 
+        <dep id="fl.motion:AdjustColor" type="e" /> 
+        <dep id="fl.rsl:SWZInfo" type="e" /> 
+        <dep id="fl.motion.easing:Exponential" type="e" /> 
+        <dep id="fl.motion:RotateDirection" type="e" /> 
+        <dep id="fl.transitions:Tween" type="e" /> 
+        <dep id="fl.motion:Keyframe" type="e" /> 
+        <dep id="fl.motion.easing:Elastic" type="e" /> 
+        <dep id="fl.transitions:TransitionManager" type="e" /> 
+        <dep id="fl.events:RSLErrorEvent" type="e" /> 
+        <dep id="fl.transitions:Photo" type="e" /> 
+        <dep id="fl.lang:Locale" type="e" /> 
+        <dep id="fl.motion:CustomEase" type="e" /> 
+        <dep id="fl.transitions:Fly" type="e" /> 
+        <dep id="fl.motion.easing:Quintic" type="e" /> 
+        <dep id="fl.motion.easing:Back" type="e" /> 
+        <dep id="fl.motion.easing:Quadratic" type="e" /> 
+        <dep id="fl.motion:Color" type="e" /> 
+        <dep id="fl.transitions.easing:None" type="e" /> 
+        <dep id="fl.transitions.easing:Regular" type="e" /> 
+        <dep id="fl.rsl:RSLInfo" type="e" /> 
+        <dep id="fl.motion:Tweenables" type="e" /> 
+        <dep id="fl.motion:BezierSegment" type="e" /> 
+        <dep id="fl.motion:ColorMatrix" type="e" /> 
+        <dep id="fl.motion.easing:Linear" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="fl/livepreview/LivePreviewParent" mod="1269538371526" >
+        <def id="fl.livepreview:LivePreviewParent" /> 
+        <dep id="flash.display:StageScaleMode" type="e" /> 
+        <dep id="flash.external:ExternalInterface" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.display:StageAlign" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

@@ -1,0 +1,17 @@
+<potentialclass>
+	<pc>
+		<name>Poor</name>
+		<coin>1000</coin>
+		<ticket>1</ticket>
+	</pc>
+	<pc>
+		<name>Normal</name>
+		<coin>5000</coin>
+		<ticket>5</ticket>
+	</pc>
+	<pc>
+		<name>Good</name>
+		<coin>10000</coin>
+		<ticket>10</ticket>
+	</pc>
+</potentialclass>

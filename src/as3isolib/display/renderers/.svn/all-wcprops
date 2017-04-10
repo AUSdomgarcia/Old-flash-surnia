@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/display/renderers
+END
+ISceneRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/display/renderers/ISceneRenderer.as
+END
+DefaultShadowRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/display/renderers/DefaultShadowRenderer.as
+END
+SceneBlittingRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/display/renderers/SceneBlittingRenderer.as
+END
+DefaultViewRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/display/renderers/DefaultViewRenderer.as
+END
+DefaultSceneLayoutRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/display/renderers/DefaultSceneLayoutRenderer.as
+END
+IViewRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/display/renderers/IViewRenderer.as
+END
+ISceneLayoutRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/display/renderers/ISceneLayoutRenderer.as
+END
+SimpleSceneLayoutRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/display/renderers/SimpleSceneLayoutRenderer.as
+END
+ViewBoundsRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/SocialStar/!svn/ver/508/ProgrammerTeam/SocialStar/src/as3isolib/display/renderers/ViewBoundsRenderer.as
+END
